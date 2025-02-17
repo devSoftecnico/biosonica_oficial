@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "807031825759",
+    "project_id": "biosonica-oficial-b6cea",
+    "storage_bucket": "biosonica-oficial-b6cea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807031825759:android:d943de295b057d9c3b02ea",
+        "android_client_info": {
+          "package_name": "com.stn.bot_dashboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuI6P9-gFX4O5v4hZb0tGE-iYYlyi5piI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

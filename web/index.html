@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Biosónica La Terapia.">
+  <meta name="google-signin-client_id" content="807031825759-vd2umo1c0jrh5vk7ldf2r64dlst4j8bi.apps.googleusercontent.com">
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Biosónica La Terapia</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAIkcQbnH8MfW-KNuin-bcP_wIOVstS9jM",
+      authDomain: "biosonica-oficial-b6cea.firebaseapp.com",
+      projectId: "biosonica-oficial-b6cea",
+      storageBucket: "biosonica-oficial-b6cea.firebasestorage.app",
+      messagingSenderId: "807031825759",
+      appId: "1:807031825759:web:854ce60144287d573b02ea",
+      clientId: "807031825759-vd2umo1c0jrh5vk7ldf2r64dlst4j8bi.apps.googleusercontent.com"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
